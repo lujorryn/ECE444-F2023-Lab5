@@ -40,3 +40,9 @@ Success after adding a view to add entries
 <p>
     <img src="screenshots/3-3-success.png" alt="Screenshot Activity 3-3"/>
 </p>
+
+## Activity 4 Styling and Javascript
+Success after adding styles and a delete function
+<p>
+    <img src="screenshots/4-1-success.png" alt="Screenshot Activity 4-1"/>
+</p>
