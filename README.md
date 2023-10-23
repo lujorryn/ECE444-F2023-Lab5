@@ -55,3 +55,9 @@ Success after modifying database to use SQLAlchemy
 <p>
     <img src="screenshots/6-1-success.png" alt="Screenshot Activity 6-1"/>
 </p>
+
+## Activity 7 Search Page
+Create search page, interface looks as follows:
+<p>
+    <img src="screenshots/7-1-interface.png" alt="Screenshot Activity 7-1"/>
+</p>
