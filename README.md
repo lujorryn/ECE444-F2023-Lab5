@@ -46,3 +46,12 @@ Success after adding styles and a delete function
 <p>
     <img src="screenshots/4-1-success.png" alt="Screenshot Activity 4-1"/>
 </p>
+
+## Activity 5 Bootstrap
+Modify app to use bootstrap styles, no tests to report
+
+## Activity 6 SQLAlchemy
+Success after modifying database to use SQLAlchemy
+<p>
+    <img src="screenshots/6-1-success.png" alt="Screenshot Activity 6-1"/>
+</p>
