@@ -6,13 +6,31 @@ This repo references https://github.com/mjhea0/flaskr-tdd
 ## Table of Contents
 * [Part 2 - Group Project Test Cases](#group-project-test-cases)
 * [Part 3 - Pros and Cons of TDD](#pros-and-cons-of-test-driven-development)
+    * [Pros](#pros)
+    * [Cons](#cons)
 * [Part 1 - Flaskr Example Activity Log](#flaskr-example-activity-log)
 
 ## Group Project Test Cases
 TBD
 
 ## Pros and Cons of Test-Driven Development
-TBD
+### Pros
+The test-based nature of TDD provides many benefits:
+- **Higher code quality**: Because tests are written before the actual code, it ensures that developers need to provide robust and less error-prone code that meets the tests' requirements.
+- **Higher modularity thus easier to maintain**: TDD consists of tests that only consider one microfeature at a time, which makes it easier to develop into a modular system that has a clear interface. And because each of these features are decoupled from each other, it is easier to change the implementation of a single feature without worrying about breaking other parts of the system.
+- **Better collaboration**: Because each test in TDD only concerns a certain set of features, it makes collaboration between development and QA easier as each feature can be tested and developed separately.
+- **Earlier bug detection**: TDD identifies bugs early in the development process and forces developers to fix them before they can move on. This makes debugging less time-consuming since they are caught and eliminated in the early cycle of development.
+- **Ensures concise code**: Since the tests are decided before implementing anything, developers will only write code that are needed to pass the tests, which already covers all of the desired funcionality. This can minimize the amount of useless code that have low contribution to features in the codebase.
+- **Easier to refactor**: The existing test suite serves as a good benchmark for any refactoring changes that the developer wants to implement. Even if the developer does not understand how the entire system is integrated, if the refactored code still passes all the tests, that means the system is still good to go.
+- **Tests document the code**: Each test in the test suite showcases how the code is supposed to be used, which serves as a valid documentation of the codebase.
+
+### Cons
+Although TDD provides many benefits, it also has some weaknesses:
+- **Steep learning curve**: TDD is closely related to the structure and planning of code, so everyone on the team needs to be able to understand how it works and implement tests effectively. This can be challenging to developers that are not familiar with this concept because striking the balance between writing tests and writing code comes with a lot of experience.
+- **Incomplete test coverage**: The tests involved in TDD already have a set of scenarios that they intend to test. However, there is no way for the tests to cover every possible scenario, so end-users/clients may still encounter bugs due to incomplete test coverage.
+- **Time consuming**: An extensive planning time is required for TDD. Developers will need a holistic view of the entire system, write test code of all components that you wish to test and ensure them failing before they can start actually implementing the features.
+- **Higher maintenance overhead**: When maintaining the code base, not only do developers need to maintain the actual code, the tests also need to be maintained.
+- **Giving tests too much importance**: Tests make up the basis of TDD, and while this ensures a certain level of quality assurance because all tests are required to pass before the product can be released, sometimes the tests are overemphasized and actual business requirements and other functionalities are neglected.
 
 ## Flaskr Example Activity Log
 ### Activity 1 First Test
