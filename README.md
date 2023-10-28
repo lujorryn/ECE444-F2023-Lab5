@@ -11,7 +11,10 @@ This repo references https://github.com/mjhea0/flaskr-tdd
 * [Part 1 - Flaskr Example Activity Log](#flaskr-example-activity-log)
 
 ## Group Project Test Cases
-TBD
+[lujorryn: User Authentication Tests](https://github.com/ECE444-2023Fall/project-1-web-application-design-group5-frog/pull/31/files#diff-358bdbff230a75c02aa9882db61fdd945fc62aa35dd54881f8f13a2c6798ea4cR35-R95) Implement tests for login,signup and logout
+
+[lujorryn: Event Browse Page Test](https://github.com/ECE444-2023Fall/project-1-web-application-design-group5-frog/pull/31/files#diff-358bdbff230a75c02aa9882db61fdd945fc62aa35dd54881f8f13a2c6798ea4cR117-R124) Implement test for the events browsing page
+
 
 ## Pros and Cons of Test-Driven Development
 ### Pros
